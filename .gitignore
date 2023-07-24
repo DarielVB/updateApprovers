@@ -1,0 +1,32 @@
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc[cod]
+*$py.class
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de registro o archivos de salida
+*.log
+*.out
+
+# Ignorar archivos de configuración específicos de tu editor
+# (Agrega más entradas si usas diferentes editores)
+.vscode/
+.idea/
+
+# Ignorar entorno virtual (si utilizas virtualenv o venv)
+env/
+venv/
+
+# Ignorar archivos generados al construir o compilar el proyecto
+/build/
+/dist/
+*.egg-info/
+
+# Ignorar el archivo de requisitos generado por pip freeze
+requirements.txt
+
+# Ignorar cualquier otro archivo o carpeta que desees omitir
+._*
